@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.1.4
 
-* TODO: Describe initial release.
+* Merged fluent_tag, fluent_data_grid and fluent_toast into one repository

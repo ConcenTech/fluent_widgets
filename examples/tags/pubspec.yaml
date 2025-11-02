@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  fluent_tag:
+  fluent_widgets:
     path: ../../
   fluent_ui: ^4.13.0
   flutter_color: ^2.1.0

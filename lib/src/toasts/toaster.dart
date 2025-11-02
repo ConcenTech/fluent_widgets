@@ -1,6 +1,6 @@
-import 'package:fluent_widgets/src/measured_widget.dart';
-import 'package:fluent_widgets/src/toast.dart';
-import 'package:fluent_widgets/src/toast_widget.dart';
+import 'package:fluent_widgets/src/toasts/toast.dart';
+import 'package:fluent_widgets/src/toasts/toast_widget.dart';
+import 'package:fluent_widgets/src/utils/measured_widget.dart';
 import 'package:flutter/widgets.dart';
 
 import 'toast_position.dart';

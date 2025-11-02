@@ -1,5 +1,5 @@
-import 'package:fluent_widgets/src/utils.dart';
 import 'package:fluent_ui/fluent_ui.dart';
+import 'package:fluent_widgets/src/utils/utils.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:pausable_timer/pausable_timer.dart';
 

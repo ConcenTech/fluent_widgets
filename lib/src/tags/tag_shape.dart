@@ -1,0 +1,1 @@
+enum TagShape { rounded, circular }

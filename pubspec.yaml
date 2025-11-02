@@ -1,6 +1,6 @@
 name: fluent_widgets
 description: "A collection of Fluent UI widgets."
-version: 0.0.1
+version: 0.1.4
 homepage:
 
 environment:

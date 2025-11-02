@@ -26,7 +26,7 @@ App-wide toast notifications that work across your entire Flutter app, not just 
 
 ### Setup
 
-Wrap your app with the `Toaster` widget:
+The `Toaster` widget must be placed below `FluentApp` in the widget tree to access the Fluent theme context. Use the `builder` parameter of `FluentApp`:
 
 ```dart
 import 'package:fluent_ui/fluent_ui.dart';
@@ -41,13 +41,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Toaster(
-      child: FluentApp(
-        title: 'My App',
-        theme: FluentThemeData(),
-        darkTheme: FluentThemeData.dark(),
-        home: const HomePage(),
-      ),
+    return FluentApp(
+      title: 'My App',
+      theme: FluentThemeData(),
+      darkTheme: FluentThemeData.dark(),
+      builder: (context, child) {
+        return Toaster(
+          child: child!,
+        );
+      },
+      home: const HomePage(),
     );
   }
 }
@@ -211,7 +214,7 @@ DataGrid<Person>(
 
 ### Column Configuration
 
-`DataGridColumn<T>` supports:ppre
+`DataGridColumn<T>` supports:
 
 - `title`: Column header text
 - `valueBuilder`: Function to extract display value (must return String)

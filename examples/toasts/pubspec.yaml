@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   fluent_ui: ^4.13.0
   fluent_widgets:
-    path: ../
+    path: ../../
   implicitly_animated_list: ^2.3.0
 
 dev_dependencies:

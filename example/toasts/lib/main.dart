@@ -1,5 +1,5 @@
-import 'package:fluent_widgets/fluent_widgets.dart';
 import 'package:fluent_ui/fluent_ui.dart';
+import 'package:fluent_widgets/fluent_widgets.dart';
 
 void main() {
   runApp(const MyApp());
@@ -55,7 +55,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  String? _updatableToastId;
+  // String? _updatableToastId;
 
   @override
   Widget build(BuildContext context) {

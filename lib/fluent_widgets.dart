@@ -1,4 +1,4 @@
-/// Fluent Toast - App-wide toast notifications for Flutter apps using fluent_ui.
+// Fluent Toast - App-wide toast notifications for Flutter apps using fluent_ui.
 
 // data grid
 export 'src/data_grid/data_grid.dart' show DataGrid;

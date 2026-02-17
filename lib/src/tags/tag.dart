@@ -237,11 +237,13 @@ class _TagState extends State<Tag> {
           ),
           SizedBox(width: dimensions.iconSpacing),
         ],
-        Text(
-          widget.text,
-          style: FluentTheme.of(context).typography.body!.copyWith(
-            fontSize: dimensions.fontSize,
-            color: foregroundColor.resolve(_mainStates),
+        Flexible(
+          child: Text(
+            widget.text,
+            style: FluentTheme.of(context).typography.body!.copyWith(
+              fontSize: dimensions.fontSize,
+              color: foregroundColor.resolve(_mainStates),
+            ),
           ),
         ),
       ],
